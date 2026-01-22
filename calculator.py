@@ -11,3 +11,9 @@ def divide(a, b):
     if b != 0:
         return a / b
     return "Error: Division by zero"
+
+if __name__ == "__main__"
+    print(f"Addition: {add(10, 5)}")
+    print(f"Subtraction: {subtract(10, 5)}")
+    print(f"Multiplication: {multiply(10, 5)}")
+    print(f"Division: {divide(10, 5)}")
